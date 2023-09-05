@@ -4,7 +4,7 @@
 <title> Home </title>
 <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
 </head>
-<div>
+<div class="header">
     <img src="logo.svg" alt="Deakin" width="200" height="210">
 </div>
 <body>
@@ -30,5 +30,53 @@
 </table>
 <br>
 
+
+<br>
+<div class="container">
+<h3> Contact Unit Chair:</h3>
+<form >
+    <div class="row">
+        <div class="col-25">
+ <label for="firstname">First name: </label>
+</div>
+ <div class="col-75">
+ <input type="text" name="firstname" required>
+</div>
+</div>
+ <br>
+ <div class="row">
+    <div class="col-25">
+ <label for="studentid">Student ID: </label>
+ </div>
+ <div class="col-75">
+ <input type="text" name="studentid" required>
+ </div>
+</div>
+ <br>
+ <div class="row">
+    <div class="col-25">
+ <label for="email">email: </label>
+    </div>
+ <div class="col-75">
+ <input type="email" name="email" required>
+</div>
+</div>
+ <br>
+ <div class="row">
+    <div class="col-25">
+ <label for="text">Message: </label>
+</div>
+<div class="col-75">
+ <textarea id="messagetext" name="messagetext" rows="4" cols="50">Please type in your 
+message</textarea>
+</div>
+</div>
+ <br>
+ <div class="row">
+    
+ <input type="submit" value="Submit!">
+ </div>
+</form>
+</div>
 </body>
 </html>
